@@ -1,3 +1,17 @@
 .block {
     padding-right: 7px;
 }
+
+#capman {
+    width: 100%;
+    margin: 0;
+}
+.creature {
+
+}
+
+.creature td {
+    width: 120px;
+    height: 120px;
+    background: yellow;
+}
