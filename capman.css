@@ -1,3 +1,11 @@
+#container {
+    width: 600px;
+}
+
+#menu {
+    float: right;
+    text-align: right;
+}
 .block {
     padding-right: 7px;
 }
