@@ -15,3 +15,19 @@ const answers = [
     "The sight of his goatee made me want to run and hide under my sister-in-law's bed",
     "The secret ingredient to his wonderful life was crime",
 ]
+
+// Find answer's length without spaces:
+// console.log(answers[4].length - answers[4].split(" ").length + 1);
+
+let _code = new Array();
+for (let v of answers) {
+    let _answers = v.split(' ');
+//    console.log(_answers);
+    for (let word of _answers) {
+//        console.log(char);
+        for (let char of word) {
+            _code.push(char);
+        }
+    }
+    console.log(_code);
+}
